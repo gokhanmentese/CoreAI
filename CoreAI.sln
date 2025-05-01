@@ -25,6 +25,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAISentimentWithD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAIArticleSummarize", "CoreAI.OpenAIArticleSummarize\CoreAI.OpenAIArticleSummarize.csproj", "{913F7179-EA97-4E09-9975-7C7239090DEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAIWebScraping", "CoreAI.OpenAIWebScraping\CoreAI.OpenAIWebScraping.csproj", "{F81CF394-FE52-4AFF-B2D3-B50410B76DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAIPdfAnalyze", "CoreAI.OpenAIPdfAnalyze\CoreAI.OpenAIPdfAnalyze.csproj", "{2EE55F34-BB7D-4DEB-943D-BCEFBDE0A5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.GoogleCloudVisionImageDetection", "CoreAI.GoogleCloudVisionImageDetection\CoreAI.GoogleCloudVisionImageDetection.csproj", "{F19A108D-1D64-4BEE-A25B-3AE3896E38F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAINewsWithRss", "CoreAI.OpenAINewsWithRss\CoreAI.OpenAINewsWithRss.csproj", "{113026DB-5055-45B5-B426-AEE08635591A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAIGenerateStory", "CoreAI.OpenAICreateStory\CoreAI.OpenAIGenerateStory.csproj", "{75A8D273-941E-4675-9F7A-9F46B48F36CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAI.OpenAIRecipeSuggestion", "CoreAI.OpenAIRecipeSuggestion\CoreAI.OpenAIRecipeSuggestion.csproj", "{7E3243EB-EF94-41C0-A2EC-71EC8AF56FCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +87,30 @@ Global
 		{913F7179-EA97-4E09-9975-7C7239090DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913F7179-EA97-4E09-9975-7C7239090DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913F7179-EA97-4E09-9975-7C7239090DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81CF394-FE52-4AFF-B2D3-B50410B76DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81CF394-FE52-4AFF-B2D3-B50410B76DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81CF394-FE52-4AFF-B2D3-B50410B76DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81CF394-FE52-4AFF-B2D3-B50410B76DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE55F34-BB7D-4DEB-943D-BCEFBDE0A5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE55F34-BB7D-4DEB-943D-BCEFBDE0A5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE55F34-BB7D-4DEB-943D-BCEFBDE0A5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE55F34-BB7D-4DEB-943D-BCEFBDE0A5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19A108D-1D64-4BEE-A25B-3AE3896E38F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19A108D-1D64-4BEE-A25B-3AE3896E38F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19A108D-1D64-4BEE-A25B-3AE3896E38F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19A108D-1D64-4BEE-A25B-3AE3896E38F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113026DB-5055-45B5-B426-AEE08635591A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113026DB-5055-45B5-B426-AEE08635591A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113026DB-5055-45B5-B426-AEE08635591A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113026DB-5055-45B5-B426-AEE08635591A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A8D273-941E-4675-9F7A-9F46B48F36CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A8D273-941E-4675-9F7A-9F46B48F36CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A8D273-941E-4675-9F7A-9F46B48F36CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A8D273-941E-4675-9F7A-9F46B48F36CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3243EB-EF94-41C0-A2EC-71EC8AF56FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3243EB-EF94-41C0-A2EC-71EC8AF56FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3243EB-EF94-41C0-A2EC-71EC8AF56FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3243EB-EF94-41C0-A2EC-71EC8AF56FCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
