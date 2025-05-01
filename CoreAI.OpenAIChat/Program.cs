@@ -36,5 +36,3 @@ else
 {
     Console.WriteLine("Bir hata olustu");
 }
-
-Console.WriteLine(responseBody);
