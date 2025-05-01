@@ -32,7 +32,7 @@ static async Task GenerateSpeech(string apiKey, string text)
     {
         model = "tts-1",
         input = text,
-        voice = "alloy",
+        voice = "alloy", //fable,echo,shimmer -- ses tonlaması
         response_format = "mp3"
     };
 
